@@ -37,12 +37,21 @@ bash deps.sh
 This script will ask a few questions and install all the required dependencies
 to a local directory.
 
+
+
 Then, build and install the Hwang package:
 ```bash
 mkdir build
 cd build
 cmake ..
+
+THEN,
+do ccmake and verify the paths use ROOT/third_party
+rather than machine deps.
+
 make -j
 cd ..
 bash build.sh
 ```
+
+Then pip install this.
