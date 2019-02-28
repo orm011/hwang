@@ -86,7 +86,7 @@ find_package(FFmpeg REQUIRED)
 find_package(GFlags REQUIRED)
 find_package(Glog REQUIRED)
 find_package(GoogleTest REQUIRED)
-set(PYBIND11_PYTHON_VERSION 3)
+set(PYBIND11_PYTHON_VERSION 2)
 find_package(pybind11 REQUIRED)
 
 set(GTEST_INCLUDE_DIRS

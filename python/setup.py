@@ -15,7 +15,7 @@ SO_PATH = os.path.abspath('{p:s}/../build/libhwang{e:s}'.format(p=SCRIPT_DIR,
                                                                 e=EXT))
 DEST_PATH = os.path.abspath('{p:s}/python/hwang/lib/libhwang{e:s}'.format(p=SCRIPT_DIR,
                                                                    e=EXT))
-os.makedirs(os.path.join(SCRIPT_DIR, 'python/hwang/lib/'), exist_ok=True)
+# os.makedirs(os.path.join(SCRIPT_DIR, 'python/hwang/lib/'), exist_ok=True)
 shutil.copyfile(SO_PATH, DEST_PATH)
 
 REQUIRED_PACKAGES = [
